@@ -3,7 +3,7 @@
 An information-retrieval system for searching 4,799 movies using structured TMDB metadata. The project compares classical BM25 retrieval strategies with a ColBERT v2 neural re-ranker and includes a Streamlit search interface.
 
 **Repository owner and maintainer:** Aslı Akel  
-**Context:** ECS736P Information Retrieval, MSc Data Science and Artificial Intelligence
+**Programme:** MSc Data Science and Artificial Intelligence
 
 ## Live demo
 
@@ -69,7 +69,7 @@ TMDB states that its API/data may be used for non-commercial purposes with attri
 
 ## Running the project
 
-Python 3.10 is recommended because the original coursework environment used Python 3.10.
+Python 3.10 is recommended because the original development environment used Python 3.10.
 
 ```bash
 python -m venv .venv
@@ -93,7 +93,7 @@ ColBERT downloads `colbert-ir/colbertv2.0` on first use. GPU acceleration is rec
 
 ## Responsible use and limitations
 
-- The relevance judgements cover 30 coursework queries and should not be interpreted as a universal benchmark of movie-search quality.
+- The relevance judgements cover 30 evaluation queries and should not be interpreted as a universal benchmark of movie-search quality.
 - Some judgements are subjective; the notebook exposes the query set and graded relevance labels for inspection.
 - Exact-match lexical retrieval remains vulnerable to vocabulary mismatch, which is analysed explicitly in the notebook.
 - Popularity and rating metadata provide a small score adjustment and may encode popularity bias.
@@ -106,7 +106,3 @@ ColBERT downloads `colbert-ir/colbertv2.0` on first use. GPU acceleration is rec
 - TMDB usage guidance: [TMDB API FAQ](https://developer.themoviedb.org/docs/faq)
 
 This product uses the TMDB API/data but is not endorsed or certified by TMDB.
-
-## Original coursework acknowledgement
-
-The original coursework notebooks credit Aslı Akel, Ayan Maharramli, Mariya Mahmood, and Taslin Osman. This GitHub portfolio repository is maintained by Aslı Akel. The original authorship information is retained in the notebooks for transparent attribution.

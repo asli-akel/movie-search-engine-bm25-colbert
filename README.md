@@ -2,9 +2,18 @@
 
 An information-retrieval system for searching 4,799 movies using structured TMDB metadata. The project compares classical BM25 retrieval strategies with a ColBERT v2 neural re-ranker and includes a Streamlit search interface.
 
-This was developed as a group coursework project for **ECS736P Information Retrieval** in the MSc Data Science and Artificial Intelligence programme.
+**Repository owner and maintainer:** Aslı Akel  
+**Context:** ECS736P Information Retrieval, MSc Data Science and Artificial Intelligence
 
-**Authors:** Aslı Akel, Ayan Maharramli, Mariya Mahmood, and Taslin Osman.
+## Live demo
+
+[![Open the Movie Search Engine on Hugging Face](https://img.shields.io/badge/Hugging%20Face-Live%20Demo-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/asli-akel/movie-search-engine)
+
+Try the deployed Streamlit application at:
+
+<https://huggingface.co/spaces/asli-akel/movie-search-engine>
+
+The Space runs on hosted community infrastructure and may occasionally be sleeping, rebuilding, or restarting. If the interface is temporarily unavailable, allow the build to complete and refresh the page. The repository notebooks retain the evaluated outputs independently of the live-demo status.
 
 ## Project highlights
 
@@ -98,3 +107,6 @@ ColBERT downloads `colbert-ir/colbertv2.0` on first use. GPU acceleration is rec
 
 This product uses the TMDB API/data but is not endorsed or certified by TMDB.
 
+## Original coursework acknowledgement
+
+The original coursework notebooks credit Aslı Akel, Ayan Maharramli, Mariya Mahmood, and Taslin Osman. This GitHub portfolio repository is maintained by Aslı Akel. The original authorship information is retained in the notebooks for transparent attribution.

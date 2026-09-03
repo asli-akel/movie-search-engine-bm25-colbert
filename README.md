@@ -48,14 +48,14 @@ FreqComb achieved the strongest P@5 and MAP, while ColBERT produced the best P@1
 │   └── README.md
 ├── notebooks/
 │   ├── movie_search_engine_pipeline.ipynb
-│   ├── movie_search_engine_pipeline.py
+│   ├── search_engine_core.py
 │   └── demo_movie_search_engine.ipynb
 ├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
 
-The pipeline notebook contains data preparation, indexing, retrieval, evaluation, statistical testing, and ColBERT re-ranking. The demo notebook loads the accompanying Python pipeline and presents compact interactive examples. The Streamlit app provides a browser-based search interface.
+The pipeline notebook is the main, presentation-ready project report: it contains data preparation, indexing, retrieval, evaluation, statistical testing, and ColBERT re-ranking with saved results. `search_engine_core.py` is the executable support script loaded by the compact demo notebook; it is included for reuse rather than as a second report. The Streamlit app provides a browser-based search interface.
 
 ## Data access
 
@@ -82,7 +82,7 @@ Then:
 1. Download the two source CSV files and place them beside the pipeline notebook.
 2. Open `notebooks/movie_search_engine_pipeline.ipynb` and run it from top to bottom. Restart the runtime after the dependency-installation cell if prompted.
 3. The pipeline creates `prepared_documents.csv` and retains the saved aggregate evaluation outputs.
-4. To use the compact demo, keep `movie_search_engine_pipeline.py` beside `demo_movie_search_engine.ipynb` and run the demo notebook.
+4. To use the compact demo, keep `search_engine_core.py` beside `demo_movie_search_engine.ipynb` and run the demo notebook.
 5. To run the web interface, place `prepared_documents.csv` beside `app/app.py` and execute:
 
 ```bash

@@ -317,7 +317,7 @@ def rank_results(query, method='freqcomb', top_k=10):
 
 # ── UI ───────────────────────────────────────────────────────
 st.title("🎬 Movie Search Engine")
-st.caption("ECS736P Information Retrieval")
+st.caption("BM25 and ColBERT Information Retrieval")
 
 col1, col2, col3 = st.columns([3, 1, 1])
 

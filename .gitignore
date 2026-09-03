@@ -1,0 +1,23 @@
+# Dataset and generated document files
+*.csv
+data/*.csv
+
+# Generated evaluation artefacts
+*.parquet
+*.pkl
+*.pickle
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Operating-system files
+.DS_Store
+

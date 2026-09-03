@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+nltk
+matplotlib
+scipy
+ragatouille==0.0.9
+transformers==4.46.2
+torch
+langchain==0.1.17
+langchain-core==0.1.53
+psutil
